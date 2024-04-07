@@ -1,0 +1,21 @@
+{
+	"Kestrel": {
+		"EndPoints": {
+			"Http": {
+				"Url": "http://localhost:5001"
+			}
+		}
+	},
+	"Database": {
+		"PostgreSql": {
+			"Host": "localhost",
+			"DatabaseName": "example",
+			"Port": "5435",
+			"Username": "admin",
+			"Password": "admin",
+			"ConnectTimeout": "00:00:15",
+			"CommandTimeout": "00:00:30",
+			"CancellationTimeout": "00:00:02"
+		  }
+	  }
+}

@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Example.Core</RootNamespace>
+    <AssemblyName>example.core</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\example.core.contacts.prj\example.core.contacts.csproj" />
+    <ProjectReference Include="..\example.core.datastorage.prj\example.core.datastorage.csproj" />
+  </ItemGroup>
+
+</Project>
